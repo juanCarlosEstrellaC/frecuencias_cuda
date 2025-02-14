@@ -8,6 +8,7 @@ enable_language(CXX CUDA)
 #add_executable(frecuencias main.cpp kernel.cu)
 #add_executable(frecuencias main_histograma.cpp kernel_histograma.cu)
 add_executable(frecuencias main_prodint.cpp kernel_prodint.cu)
+add_executable(frecuencias main_blur.cpp kernel_blur.cu)
 
 
 target_include_directories(untitled PUBLIC
